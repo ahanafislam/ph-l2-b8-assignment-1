@@ -24,10 +24,10 @@ function formatCoordinate(location: readonly [number, number, string]): string {
 }
 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
-    let concatenatedArray: T[] = [];
+    const concatenatedArray: T[] = [];
 
     for(let i: number = 0; i < arrays.length; i++ ) {
-        let array: T[] = arrays[i];
+        const array: T[] = arrays[i];
 
         array.forEach((value): void => {
             concatenatedArray.push(value);
