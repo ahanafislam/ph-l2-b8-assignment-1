@@ -69,5 +69,5 @@ Now you understand the difference between them.
 Experts says they prefer using `interfaces` when we need to work with object structures, especially for API responses or class contracts. On the other hand, when we need to working with union types or more complex type combinations we need to choose `type` alias.  
   
   
-**Conclusion**\ 
+**Conclusion**\
 In the conclusion I will say you that It will be safer If we use `interface` for objects. I personally use this also. Honestly, both are useful and there is no need to always stick with one. The important thing is understanding their differences because it's depend of situation. We can't say it's better then other.
