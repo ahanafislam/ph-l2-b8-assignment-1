@@ -22,3 +22,17 @@ function formatCoordinate(location: readonly [number, number, string]): string {
 
     return outputString;
 }
+
+function concatenateArrays<T>(...arrays: T[][]): T[] {
+    let concatenatedArray: T[] = [];
+
+    for(let i: number = 0; i < arrays.length; i++ ) {
+        let array: T[] = arrays[i];
+
+        array.forEach((value): void => {
+            concatenatedArray.push(value);
+        });
+    }
+    
+    return concatenatedArray;
+}
