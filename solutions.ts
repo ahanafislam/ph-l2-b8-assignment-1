@@ -15,3 +15,10 @@ function processInput(value: string | number | boolean): string | number {
 
     return value ? "Active" : "Inactive";
 }
+
+function formatCoordinate(location: readonly [number, number, string]): string {
+    const [latitude, longitude, locationName] = location;
+    const outputString:string = `Location: ${locationName} (${latitude}, ${longitude})`;
+
+    return outputString;
+}
