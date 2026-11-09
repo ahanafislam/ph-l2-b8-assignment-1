@@ -23,7 +23,7 @@ Through this assignment, I practiced different TypeScript concepts and tried to 
 ```text
 ├── solutions.ts
 ├── type-vs-interface.md
-├── typescript-access-modifiers.md
+├── understanding-access-modifiers.md
 └── README.md
 ```
 
@@ -32,7 +32,7 @@ Through this assignment, I practiced different TypeScript concepts and tried to 
 I have also written two blog posts covering TypeScript concepts in more detail:
 
 1. [Type Alias vs Interface in TypeScript: What's the Difference and When to Use Them?](./type-vs-interface.md)
-2. [Understanding Access Modifiers in TypeScript OOP](./typescript-access-modifiers.md)
+2. [Understanding Access Modifiers in TypeScript OOP](./understanding-access-modifiers.md)
 
 ## Technologies Used
 
