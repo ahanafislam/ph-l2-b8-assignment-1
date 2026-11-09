@@ -70,4 +70,4 @@ Experts says they prefer using `interfaces` when we need to work with object str
   
   
 **Conclusion**  
-In the conclusion I will say you that It will be safer If we use `interface` for objects. I personally use this also. When it's not possible with `interface` I use `type` like union, tuple etc.
+In the conclusion I will say you that It will be safer If we use `interface` for objects. I personally use this also. Honestly, both are useful and there is no need to always stick with one. The important thing is understanding their differences because it's depend of situation. We can't say it's better then other.
