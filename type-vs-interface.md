@@ -1,9 +1,9 @@
 # Type Alias vs Interface in TypeScript: What's the Difference and When to Use Them?
 
-**Introduction**
+**Introduction**\
 When we use TypeScript, sometimes we confushed about what should we use Interface or Type Alias. The main reason is that the type and interface both look the same, but they have some differences. At this blog post, I’m talking about what the difference between them and what should we use and when should we use.
 
-**Understanding the Difference**
+**Understanding the Difference**\
 At first I want to show there syntax with example. At first let, we want to create a Object type for student. We need our Student object should have id as `string` , name as `string`, roll as `number`, subjects as `array of string`. Below I'm showing how can we write it with `type` vs `interface`
 
 *Using Type Alias*
@@ -65,9 +65,9 @@ type ID = string | number;
 ```
 Now you understand the difference between them.
 
-**When should we choose one over the other?**
+**When should we choose one over the other?**\
 Experts says they prefer using `interfaces` when we need to work with object structures, especially for API responses or class contracts. On the other hand, when we need to working with union types or more complex type combinations we need to choose `type` alias.  
   
   
-**Conclusion**  
+**Conclusion**\ 
 In the conclusion I will say you that It will be safer If we use `interface` for objects. I personally use this also. Honestly, both are useful and there is no need to always stick with one. The important thing is understanding their differences because it's depend of situation. We can't say it's better then other.
